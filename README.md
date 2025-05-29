@@ -1,12 +1,26 @@
-# React + Vite
+# 🛍️ Product List with Search Filter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that displays a list of products with a search bar. Users can filter the product list by name and visually identify out-of-stock items.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✅ Concepts Covered
 
-## Expanding the ESLint configuration
+- **Lists & Keys** – Rendering dynamic lists with unique keys
+- **Conditional Rendering** – Displaying UI based on product availability
+- **Controlled Input** – Syncing user input with React state
+- **Lifting State Up** – Managing shared state across components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Features
+
+- 📋 Display a dynamic list of products
+- 🔎 Real-time search filter for product names
+- 🚫 Highlight products that are **out of stock**
+- 💡 Simple, clean UI built with React functional components
+
+---
+
+## 📁 Project Structure
+
